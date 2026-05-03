@@ -1,11 +1,115 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Main Page</title>
-</head>
-<body>
-    <h1>Hello</h1>
-</body>
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <header id="page-header" class="page-header">
+      <a href="index.html" class="logo">
+        <span>Samuel Penney</span>
+      </a>
+      <nav class="prim-nav">
+        <ul class="prim-link-list">
+          <li><a href="#about" class="prim-link">About</a></li>
+          <li><a href="#projects" class="prim-link">Projects</a></li>
+          <li><a href="#skills" class="prim-link">Skills</a></li>
+          <li><a href="#contact" class="prim-link">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="theme-toggle" type="button">Dark Mode</button>
+    </header>
+    <main id="main-content">
+      <section id="about">
+        <h2>Software Engineering and Cybersecurity Management Student</h2>
+        <h3>University of Montana, MT</h3>
+        <p>
+          As a software engineering and cybersecurity management student at the
+          University of Montana, I am passionate about developing innovative
+          solutions to complex problems. With a strong foundation in programming
+          languages such as Java, Python, and C++.
+        </p>
+        <a href="#projects" class="button">View my Work</a>
+        <a href="resume.html" class="button">Resume</a>
+      </section>
+      <section id="projects">
+        <h2>Projects</h2>
+        <section id="project-card">
+          <a href="https://github.com/samuelpenney" class="project-title">
+            <h3>Web Design Project 1</h3>
+          </a>
+          <section class="project-desc">
+            <p>This is the description</p>
+          </section>
+        </section>
+        <section id="project-card">
+          <a href="https://github.com/samuelpenney" class="project-title">
+            <h3>Web Design Project 2</h3>
+          </a>
+          <section class="project-desc">
+            <p>This is the description</p>
+          </section>
+        </section>
+        <section id="project-card">
+          <a href="https://github.com/samuelpenney" class="project-title">
+            <h3>Living World</h3>
+          </a>
+          <section class="project-desc">
+            <p>This is the description</p>
+          </section>
+        </section>
+        <section id="project-card">
+          <a href="https://github.com/samuelpenney" class="project-title">
+            <h3>Gravity Simulator</h3>
+          </a>
+          <section class="project-desc">
+            <p>This is the description</p>
+          </section>
+        </section>
+        <section id="project-card">
+          <a href="https://github.com/samuelpenney" class="project-title">
+            <h3>Data Structures and Algorithms Repo</h3>
+          </a>
+          <section class="project-desc">
+            <p>This is the description</p>
+          </section>
+        </section>
+      </section>
+      <section id="skills">
+        <h2>Skills</h2>
+        <section id="skills-list">
+          <ul>
+            <li>Java</li>
+            <li>Python</li>
+            <li>C++</li>
+            <li>HTML/CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </section>
+      </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>
+          Email: <a href="mailto:scpenney2@gmail.com">scpenney2@gmail.com</a>
+        </p>
+        <p>
+          GitHub:
+          <a href="https://github.com/samuelpenney" target="_blank"
+            >https://github.com/samuelpenney</a
+          >
+        </p>
+        <p>
+          LinkedIn:
+          <a
+            href="https://www.linkedin.com/in/samuel-penney-9b1a2523b/"
+            target="_blank"
+            >https://www.linkedin.com/in/samuel-penney-9b1a2523b/</a
+          >
+        </p>
+      </section>
+    </main>
+    <script src="./scripts/theme.js"></script>
+  </body>
 </html>
